@@ -1,10 +1,16 @@
-# TF — Typography as Foundation: Fonts
+# 08_TF
 
-Phi Institute of Design **Typography as Foundation** 수업 작업 기록.
-폰트를 모으고, 분류하고, 분석해서 폰트 모음집을 만든다. 수업 맥락과 루브릭은 [CLAUDE.md](CLAUDE.md)에 정리했다.
+과목 작업 폴더이자 GitHub 저장소입니다.
 
-## 날짜별 기록
+```
+08_TF/
+├─ previous/       WK12까지의 이전 작업 (기존 저장소 내용 + 로컬 자료)
+├─ WK13/ ~ WK16/   주차별 작업
+└─ README.md
+```
 
-| 날짜 | 내용 |
-| --- | --- |
-| 1112 | 저장소 시작 · [사전과제 용어 리포트 초안](1112/term-report.md) (활자·서체·폰트·글꼴·글자체·활자체) |
+## GitHub에 올리지 않는 것 (`.gitignore`)
+
+- 원본·대용량: `*.psd`, `*.ai`, `*.indd`, `*.mp4`, `*.mov` — 로컬에만 있으므로 따로 백업하세요.
+- 강의 배포 자료: `Source/` 안의 PDF
+- `node_modules/`, `.env`, `.claude/`
